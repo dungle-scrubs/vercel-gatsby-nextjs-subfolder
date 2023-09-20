@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/shop/:match*",
+      "destination": "vercel-gatsby-nextjs-subfolder-docs.vercel.app/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "vercel-gatsby-nextjs-subfolder-web.vercel.app/:match*"
+    }
+  ]
+}
